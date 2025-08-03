@@ -19,13 +19,28 @@ body {
 .logo {
     color: #f9faf8;
     margin: 16px;
-    font-weight: 300;
+    font-weight: 500;
+    margin-left: 200px;
 }
 
-ul {
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links > ul {
     list-style-type: none;
-    margin: 0;
+    margin-right: 200px;
     padding: 0;
+    display: flex;
+    gap: 30px;
+}
+.links > ul a {
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
 }
 
 .body {
